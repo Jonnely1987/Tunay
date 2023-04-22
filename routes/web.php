@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\GoogleSocialiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,5 +34,9 @@ Route::resource('post', [App\Http\Controllers\PostController::class,]);
 //Route::post('/jobs', [App\Http\Controllers\PostController::class, 'store'])->name('store');
 
 Route::post('/jobs', function () {
-    return view('manager.jobppsting');
+    return view('manager.jobposting');
 });
+
+
+//Route::get('auth/google', [App\Http\Controllers\PostControllerGoogleSocialiteController::class, 'redirectToGoogle']);
+//Route::get('callback/google', [App\Http\Controllers\PostControllerGoogleSocialiteController::class, 'handleCallback']);
