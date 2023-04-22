@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,4 +27,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/regsmanager', function () {
     return view('regs.manager');
+});
+
+Route::resource('post', [App\Http\Controllers\PostController::class,]);
+//Route::post('/jobs', [App\Http\Controllers\PostController::class, 'store'])->name('store');
+
+Route::post('/jobs', function () {
+    return view('manager.jobppsting');
 });
