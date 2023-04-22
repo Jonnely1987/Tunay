@@ -30,7 +30,7 @@
             type="button"
             onclick="toggleNavbar('example-collapse-sidebar')"
           >
-            <i class="fas fa-bars"></i></button
+            <i class=""></i></button
           >
           <a
             class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
@@ -43,7 +43,7 @@
               <li class="items-center">
                 <a
                   class="text-indigo-500 hover:text-blue-600 text-xs uppercase py-3 font-bold block"
-                  href="#/dashboard"
+                  href="#"
                   ><i class="fas fa-tv opacity-75 mr-2 text-sm"></i>
                   Dashboard</a
                 >
@@ -52,7 +52,7 @@
                 <a
                   class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   href="{{ url('/') }}"
-                  ><i class="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i>
+                  ><i class=" text-blueGray-400 mr-2 text-sm"></i>
                   Landing Page</a
                 >
               </li>
@@ -62,8 +62,8 @@
               <li class="items-center">
                 <a
                   class="text-blueGray-700 text-xs hover:text-blueGray-500 uppercase py-3 font-bold block"
-                  href="#pablo"> 
-                  <i class="fas fa-tools text-blueGray-300 mr-2 text-sm"></i>
+                  href="#"> 
+                  <i class=" text-blueGray-300 mr-2 text-sm"></i>
                   Settings</a>
               </li>
             </ul>
@@ -71,7 +71,7 @@
             <h6
               class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
             >
-              Documentation
+             Way Finding
             </h6>
             <ul
               class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"
@@ -81,7 +81,7 @@
                   class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/styles"
                   ><i
-                    class="fas fa-paint-brush mr-2 text-blueGray-400 text-base"
+                    class=" mr-2 text-blueGray-400 text-base"
                   ></i>
                   COMPANY PROFILE</a
                 >
@@ -90,7 +90,7 @@
                 <a
                   class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/alerts"
-                  ><i class="fab fa-css3-alt mr-2 text-blueGray-400 text-base"></i>
+                  ><i class=" mr-2 text-blueGray-400 text-base"></i>
                   JOB OPENINGS</a
                 >
               </li>
@@ -98,7 +98,7 @@
                 <a
                   class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/vue/alerts"
-                  ><i class="fab fa-vuejs mr-2 text-blueGray-400 text-base"></i>
+                  ><i class=" mr-2 text-blueGray-400 text-base"></i>
                 SHORT LIST  
                 </a>
               </li>
@@ -106,14 +106,14 @@
                 <a
                   class="text-blueGray-700 hover:text-blueGray-500  text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/react/alerts"
-                  ><i class="fab fa-r-project mr-2 text-blueGray-400 text-base"></i>
+                  ><i class=" mr-2 text-blueGray-400 text-base"></i>
                   JOB SEEKER'S LIST</a>
               </li>
               <li class="inline-flex">
                 <a
                   class="text-blueGray-700 hover:text-blueGray-500  text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/angular/alerts"
-                  ><i class="fab fa-angular mr-2 text-blueGray-400 text-base"></i>
+                  ><i class=" mr-2 text-blueGray-400 text-base"></i>
                   </a
                 >
               </li>
@@ -138,17 +138,9 @@
         <nav
           class="absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-nowrap md:justify-start flex items-center p-4"
         >
-          <div
-            class="w-full mx-autp items-center flex justify-between md:flex-nowrap flex-wrap md:px-10 px-4"
-          >
-            <a
-              class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
-              href="./index.html">Dashboard</a>
-              
-            
-          </div>
+          
         </nav>
-        <!-- Header -->
+      
         <div class="relative bg-blue-400 md:pt-32 pb-32 pt-12">
           <div class="px-4 md:px-10 mx-auto w-20 h-fit ">
             <div>
@@ -157,7 +149,16 @@
               
   <div class=" py-4 px-4 mx-auto max-w-2xl lg:py-16">
       <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Add Job Posting</h2>
-      <form action="#">
+      @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+              @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+              @endforeach
+            </ul>
+        </div>
+      @endif 
+      <form method="Post" action="{{ url('jobs') }}" >
           <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
               <div class="sm:col-span-2">
                   <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Job Description</label>
@@ -192,6 +193,7 @@
         <a href="{{ url('jobs') }}"></a>
         Save
     </button>
+
   </div>
              </section>
 </section>

@@ -38,32 +38,23 @@
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Share</span></a
-              >
+                href="#">
+                </a>
             </li>
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Tweet</span></a
-              >
+                href="#"
+                >
+                </a>
             </li>
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Star</span></a
-              >
+                href="#">
+              </a>
+               
+              
             </li>
             <li class="flex items-center">
               <button
@@ -224,13 +215,14 @@
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-indigo-600"
               >
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
-                  class="w-full align-middle rounded-t-lg"
-                />
+                  src="https://images.unsplash.com/photo-1617900906639-cab7adceb499?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&fit=crop&amp;w=870&amp;q=80"
+                  class="w-full align-middle rounded-t-lg"/>
+
+                  
                 <blockquote class="relative p-8 mb-4">
                   <svg
                     preserveAspectRatio="none"
@@ -283,8 +275,8 @@
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
-                src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
-              />
+                src="https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470&amp;q=80"/>
+                
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
@@ -293,11 +285,11 @@
                 >
                   <i class="fas fa-rocket text-xl"></i>
                 </div>
-                <h3 class="text-3xl font-semibold">A growing company</h3>
+                <h3 class="text-3xl font-semibold">User-friendly interface</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                  The extension comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go.
+                  A well-designed career website with a user-friendly interface can make it easy for job seekers to search and 
+                  apply for jobs, 
+                  as well as connect with potential employers.
                 </p>
                 <ul class="list-none mt-6">
                   <li class="py-2">
@@ -347,158 +339,7 @@
           </div>
         </div>
       </section>
-      <section class="pt-20 pb-48">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center mb-24">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold">Here are our heroes</h2>
-              <p class="text-lg leading-relaxed m-4 text-gray-600">
-                According to the National Oceanic and Atmospheric
-                Administration, Ted, Scambos, NSIDClead scentist, puts the
-                potentially record maximum.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-wrap">
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="./assets/img/team-1-800x800.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Ryan Tompson</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Web Developer
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-facebook-f"></i></button
-                    ><button
-                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-dribbble"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="./assets/img/team-2-800x800.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Romina Hadid</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Marketing Specialist
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-google"></i></button
-                    ><button
-                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-facebook-f"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="./assets/img/team-3-800x800.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Alexa Smith</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    UI/UX Designer
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-google"></i></button
-                    ><button
-                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-instagram"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <img
-                  alt="..."
-                  src="./assets/img/team-4-470x470.png"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Jenna Kardi</h5>
-                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Founder and CEO
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-dribbble"></i></button
-                    ><button
-                      class="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-google"></i></button
-                    ><button
-                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-twitter"></i></button
-                    ><button
-                      class="bg-gray-800 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <i class="fab fa-instagram"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       <section class="pb-20 relative block bg-gray-900">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
@@ -522,11 +363,11 @@
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">Build something</h2>
+              <h2 class="text-4xl font-semibold text-white">Join Our Community Now</h2>
               <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                Put the potentially record low maximum sea ice extent tihs year
-                down to low ice. According to the National Oceanic and
-                Atmospheric Administration, Ted, Scambos.
+                Sharing information on the company's culture, such as company events, volunteer opportunities, 
+                 employee engagement initiatives, can give candidates an idea of the overall vibe of 
+                 the organization.
               </p>
             </div>
           </div>
@@ -538,11 +379,11 @@
                 <i class="fas fa-medal text-xl"></i>
               </div>
               <h6 class="text-xl mt-5 font-semibold text-white">
-                Excelent Services
+                Company Overview:
               </h6>
               <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                A brief introduction to the company's history, mission, and values can give potential an idea of 
+                what the company stands for and whether they align with those values.
               </p>
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center">
@@ -552,11 +393,11 @@
                 <i class="fas fa-poll text-xl"></i>
               </div>
               <h5 class="text-xl mt-5 font-semibold text-white">
-                Grow your market
+                Benefits and Perks:
               </h5>
               <p class="mt-2 mb-4 text-gray-500">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Highlighting the company's benefits and perks, such as health insurance, retirement plans, paid time off, 
+                 employee discounts, can attract potential candidates.
               </p>
             </div>
             <div class="w-full lg:w-3/12 px-4 text-center">
@@ -623,99 +464,7 @@
                 class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i class="flex fab fa-github"></i>
-              </button>
-            </div>
-          </div>
-          <div class="w-full lg:w-6/12 px-4">
-            <div class="flex flex-wrap items-top mb-6">
-              <div class="w-full lg:w-4/12 px-4 ml-auto">
-                <span
-                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                  >Useful Links</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                      >About Us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                      >Blog</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href=""
-                      >Github</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href=""
-                      >Free Products</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="w-full lg:w-4/12 px-4">
-                <span
-                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                  >Other Resources</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href=""
-                      >MIT License</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/terms"
-                      >Terms &amp; Conditions</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href=""
-                      >Privacy Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href=""
-                      >Contact Us</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="my-6 border-gray-400" />
-        <div
-          class="flex flex-wrap items-center md:justify-between justify-center"
-        >
-          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div class="text-sm text-gray-600 font-semibold py-1">
-              Copyright © 2019 Tailwind Starter Kit by
-              <a
-                href="https://www.creative-tim.com"
-                class="text-gray-600 hover:text-gray-900"
-                >Creative Tim</a
-              >.
+               
             </div>
           </div>
         </div>
