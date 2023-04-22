@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -36,121 +38,11 @@
           >
             MANAGER DASHBOARD
           </a>
-          <ul class="md:hidden items-center flex flex-wrap list-none">
-            <li class="inline-block relative">
-              <a
-                class="text-blueGray-500 block py-1 px-3"
-                href="#pablo"
-                onclick="openDropdown(event,'notification-dropdown')"
-                ><i class="fas fa-bell"></i
-              ></a>
-              <div
-                class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mt-1"
-                style="min-width: 12rem;"
-                id="notification-dropdown"
-              >
-                <a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Action</a
-                ><a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Another action</a
-                ><a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Something else here</a
-                >
-                <div class="h-0 my-2 border border-solid border-blueGray-100"></div>
-                <a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Seprated link</a
-                >
-              </div>
-            </li>
-            <li class="inline-block relative">
-              <a
-                class="text-blueGray-500 block"
-                href="#pablo"
-                onclick="openDropdown(event,'user-responsive-dropdown')"
-                ><div class="items-center flex">
-                  <span
-                    class="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full"
-                    ><img
-                      alt="..."
-                      class="w-full rounded-full align-middle border-none shadow-lg"
-                      src="./assets/img/team-1-800x800.jpg"
-                  /></span></div
-              ></a>
-              <div
-                class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mt-1"
-                style="min-width: 12rem;"
-                id="user-responsive-dropdown"
-              >
-                <a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Action</a
-                ><a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Another action</a
-                ><a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Something else here</a
-                >
-                <div class="h-0 my-2 border border-solid border-blueGray-100"></div>
-                <a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Seprated link</a
-                >
-              </div>
-            </li>
-          </ul>
-          <div
-            class="md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded hidden"
-            id="example-collapse-sidebar"
-          >
-            <div
-              class="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200"
-            >
-              <div class="flex flex-wrap">
-                <div class="w-6/12">
-                  <a
-                    class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
-                    href="javascript:void(0)"
-                  >
-                    ADMIN DASHBOARD
-                  </a>
-                </div>
-                <div class="w-6/12 flex justify-end">
-                  <button
-                    type="button"
-                    class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
-                    onclick="toggleNavbar('example-collapse-sidebar')"
-                  >
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <form class="mt-6 mb-4 md:hidden">
-              <div class="mb-3 pt-0">
-                <input
-                  type="text"
-                  placeholder="Search"
-                  class="border-0 px-3 py-2 h-12 border border-solid  border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"
-                />
-              </div>
-            </form>
+          
             <ul class="md:flex-col md:min-w-full flex flex-col list-none">
               <li class="items-center">
                 <a
-                  class="text-pink-500 hover:text-pink-600 text-xs uppercase py-3 font-bold block"
+                  class="text-indigo-500 hover:text-blue-600 text-xs uppercase py-3 font-bold block"
                   href="#/dashboard"
                   ><i class="fas fa-tv opacity-75 mr-2 text-sm"></i>
                   Dashboard</a
@@ -159,44 +51,20 @@
               <li class="items-center">
                 <a
                   class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-                  href="#/landing"
+                  href="{{ url('/') }}"
                   ><i class="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i>
                   Landing Page</a
                 >
               </li>
-              <li class="items-center">
-                <a
-                  class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-                  href="#/profile"
-                  ><i class="fas fa-user-circle text-blueGray-400 mr-2 text-sm"></i>
-                  Profile Page</a
-                >
+             
+             
               </li>
               <li class="items-center">
                 <a
-                  class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
-                  href="#/login"
-                  ><i class="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i>
-                  </a
-                >
-              </li>
-              <li class="items-center">
-                <a
-                  class="text-blueGray-300 text-xs uppercase py-3 font-bold block"
-                  href="#pablo"
-                  ><i
-                    class="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"
-                  ></i>
-                  Register (soon)</a
-                >
-              </li>
-              <li class="items-center">
-                <a
-                  class="text-blueGray-300 text-xs uppercase py-3 font-bold block"
-                  href="#pablo"
-                  ><i class="fas fa-tools text-blueGray-300 mr-2 text-sm"></i>
-                  Settings (soon)</a
-                >
+                  class="text-blueGray-700 text-xs hover:text-blueGray-500 uppercase py-3 font-bold block"
+                  href="#pablo"> 
+                  <i class="fas fa-tools text-blueGray-300 mr-2 text-sm"></i>
+                  Settings</a>
               </li>
             </ul>
             <hr class="my-4 md:min-w-full" />
@@ -215,7 +83,7 @@
                   ><i
                     class="fas fa-paint-brush mr-2 text-blueGray-400 text-base"
                   ></i>
-                  Styles</a
+                  COMPANY PROFILE</a
                 >
               </li>
               <li class="inline-flex">
@@ -223,7 +91,7 @@
                   class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/alerts"
                   ><i class="fab fa-css3-alt mr-2 text-blueGray-400 text-base"></i>
-                  CSS Components</a
+                  JOB OPENINGS</a
                 >
               </li>
               <li class="inline-flex">
@@ -231,30 +99,33 @@
                   class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/vue/alerts"
                   ><i class="fab fa-vuejs mr-2 text-blueGray-400 text-base"></i>
-                  VueJS</a
-                >
+                SHORT LIST  
+                </a>
               </li>
               <li class="inline-flex">
                 <a
                   class="text-blueGray-700 hover:text-blueGray-500  text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/react/alerts"
-                  ><i class="fab fa-react mr-2 text-blueGray-400 text-base"></i>
-                  React</a
-                >
+                  ><i class="fab fa-r-project mr-2 text-blueGray-400 text-base"></i>
+                  JOB SEEKER'S LIST</a>
               </li>
               <li class="inline-flex">
                 <a
                   class="text-blueGray-700 hover:text-blueGray-500  text-sm block mb-4 no-underline font-semibold"
                   href="#/documentation/angular/alerts"
                   ><i class="fab fa-angular mr-2 text-blueGray-400 text-base"></i>
-                  Angular</a
+                  </a
                 >
               </li>
               <li class="inline-flex">
+                <button class="bg-blue-500 text-white active:bg-blue-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
+                type="button"
+                style="transition: all 0.15s ease 0s;">
                 <a class="dropdown-item" href="{{ route('logout') }}"
                     onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
                           {{ __('Logout') }} </a>
+                </button>         
                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                     @csrf
                     </form>
@@ -272,70 +143,59 @@
           >
             <a
               class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
-              href="./index.html"
-              >Dashboard</a
-            >
-            <form
-              class="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3"
-            >
-              <div class="relative flex w-full flex-wrap items-stretch">
-                <span
-                  class="z-10 h-full leading-snug font-normal absolute text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3"
-                  ><i class="fas fa-search"></i
-                ></span>
-                <input
-                  type="text"
-                  placeholder="Search here..."
-                  class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-10"
-                />
-              </div>
-            </form>
-            <ul
-              class="flex-col md:flex-row list-none items-center hidden md:flex"
-            >
-              <a class="text-blueGray-500 block" href="#pablo" onclick="openDropdown(event,'user-dropdown')">
-                <div class="items-center flex">
-                  <span
-                    class="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full"
-                    ><img
-                      alt="..."
-                      class="w-full rounded-full align-middle border-none shadow-lg"
-                      src="./assets/img/team-1-800x800.jpg"
-                  /></span>
-                </div>
-              </a>
-              <div
-                class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mt-1"
-                style="min-width: 12rem;"
-                id="user-dropdown"
-              >
-                <a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Action</a
-                ><a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Another action</a
-                ><a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Something else here</a
-                >
-                <div class="h-0 my-2 border border-solid border-blueGray-100"></div>
-                <a
-                  href="#pablo"
-                  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-                  >Seprated link</a>
-              </div>
-            </ul>
+              href="./index.html">Dashboard</a>
+              
+            
           </div>
         </nav>
         <!-- Header -->
         <div class="relative bg-blue-400 md:pt-32 pb-32 pt-12">
-          <div class="px-4 md:px-10 mx-auto w-full">
+          <div class="px-4 md:px-10 mx-auto w-20 h-fit ">
             <div>
-             
+             <section class="bg-white dark:bg-gray-900">
+
+              
+  <div class=" py-4 px-4 mx-auto max-w-2xl lg:py-16">
+      <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Add Job Posting</h2>
+      <form action="#">
+          <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
+              <div class="sm:col-span-2">
+                  <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Job Description</label>
+                  <input type="text" name="description" id="description" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Description" required="">
+              </div>
+              <div class="w-full">
+                  <label for="qualification" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Qualifications</label>
+                  <input type="text" name="qualification" id="qualification" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Education Require" required="">
+              </div>
+              <div class="w-full">
+                  <label for="salary" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Salary</label>
+                  <input for="number" name="salary" id="price" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="PHP" required="">
+              </div>
+              <div>
+                  <label for="category" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Category</label>
+                  <select name="category" id="category" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                      <option selected="">Select category</option>
+                      <option value="Accounting">Accounting and Finance</option>
+                      <option value="Admin">Administrative</option>
+                      <option value="Engineering">Engineering</option>
+                      <option value="Freelance">Freelancing</option>
+                  </select>
+              </div>
+              <br>
+              <div class="sm:col-span-2">
+                  <label name="other" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Notes and Other Qualifications</label>
+                  <textarea id="description" rows="5" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Your description here"></textarea>
+                </div>
+          </div>
+      </form>
+      <button type="submit" class=" bg-blue-500 inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-black bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+        <a href="{{ url('jobs') }}"></a>
+        Save
+    </button>
+  </div>
+             </section>
+</section>
+
               
                 
                
@@ -575,6 +435,61 @@
         ctx = document.getElementById("bar-chart").getContext("2d");
         window.myBar = new Chart(ctx, config);
       })();
+      tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        primary: {"50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#2563eb","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a"}
+      }
+    },
+    fontFamily: {
+      'body': [
+    'Inter', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ],
+      'sans': [
+    'Inter', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ]
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
     </script>
   </body>
 </html>
